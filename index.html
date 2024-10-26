@@ -1,14 +1,37 @@
-.container
-
-  .grid
-    - for (i=0; i<72; i++)
-      .cell
-      
-  .grid
-    - for (i=0; i<72; i++)
-      .cell
-      
-  .grid
-    - for (i=0; i<72; i++)
-      .cell
-      
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <!-- Tạo ra 72 ô trong grid đầu tiên -->
+      <script>
+        for (let i = 0; i < 72; i++) {
+          document.write('<div class="cell"></div>');
+        }
+      </script>
+    </div>
+    <div class="grid">
+      <!-- Tạo ra 72 ô trong grid thứ hai -->
+      <script>
+        for (let i = 0; i < 72; i++) {
+          document.write('<div class="cell"></div>');
+        }
+      </script>
+    </div>
+    <div class="grid">
+      <!-- Tạo ra 72 ô trong grid thứ ba -->
+      <script>
+        for (let i = 0; i < 72; i++) {
+          document.write('<div class="cell"></div>');
+        }
+      </script>
+    </div>
+  </div>
+</body>
+</html>
